@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* 
+font-family: 'Roboto', sans-serif;
+*/ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --fontSize-texto: 12px;
+    --fontsize-titulares:24px;
+    --fontSize-precios:18px;
+    --fontSize-descripcion:16px;
+    --fontSize-descuentos:16px;
+  }
+:root{
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-grisOscuro:#666;
+    --color-Grisclaro: #ebebeb;
+    --color-Verde: #39b54a;;
+}
+
+/*header*/
+
+body{
+    font-family: var(--font-family);
+}
+body header{
+    background-color:var(--color-amarillo);
+    
+}
+.home .logo{
+width: 50%;
+padding: 25px 15px 0px;
+margin: 0px 10px 0px;}
+
+body header .lupa .buscador{
+    padding: 10px 20px;
+}
+body header section .cuota{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 15%;
+    text-align: justify;
+}
+.barra .menu a{
+    text-decoration: none;
+   font-size:var(--fontSize-texto);
+   color: black;
+   padding: 0%;
+}
+.barra .menu .lista1{
+    text-decoration: none;
+   font-size:var(--fontSize-texto);
+   color: black;
+   padding: 2% 0%;
+   list-style: none;
+}
+.barra .menu .lista2{
+    text-decoration: none;
+   font-size:var(--fontSize-texto);
+   color: black;
+   padding: 6% 0%;
+   list-style: none;
+}
+header .burguer-menu .burguer{
+     display: inline-block;
+   font-size: 20px;
+    background-color: var(--color-celeste);
+    color:var(--color-Grisclaro);
+    margin: 0px 130px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+/*main*/
+
+body main h2{
+font-size: var(--fontsize-titulares);
+}
+
+main section article .producto .precio{
+    font-size:var(--fontSize-precios);
+}
+main section article .producto .descuento{
+    font-size: var(--fontSize-descuentos);
+
+}
+
+/*footer*/
+
+footer .icon {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+footer h3{
+    font-size: var(--fontSize-descripcion);
+    text-align: center;
+}
+footer p{
+    font-size: var(--fontSize-texto);
+    text-align: center;
+    margin-bottom: 40px;
+}
