@@ -86,6 +86,9 @@ font-size: var(--fontsize-titulares);
 body main section h4.oferta{
 font-size: var(--fontsize-titulares);
 }
+body main section h4.descripcion{
+    font-size: var(--fontSize-descripcion);
+}
 
 main section article .producto .precio{
     font-size:var(--fontSize-precios);
