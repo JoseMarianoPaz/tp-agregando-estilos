@@ -83,6 +83,9 @@ header .burguer-menu .burguer{
 body main h2{
 font-size: var(--fontsize-titulares);
 }
+body main section h4.oferta{
+font-size: var(--fontsize-titulares);
+}
 
 main section article .producto .precio{
     font-size:var(--fontSize-precios);
